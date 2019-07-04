@@ -7,7 +7,7 @@ public class LibraryContainer {
 
     public static void container(Map<LocalDate, String> map, LocalDate data) {
 
-        System.out.println(map.getOrDefault(data, "At such a date, the book was not taken"));
+        System.out.println(map.getOrDefault(data, "At such a date, the book was not taken."));
 
     }
 }
